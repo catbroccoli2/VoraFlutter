@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import '../models/climate_state.dart';
 import '../constants/app_colors.dart';
 
+
+// Segmented selector for fan speed — disabled when power is off
+
 class FanSpeedSelector extends StatelessWidget {
   const FanSpeedSelector({super.key});
 

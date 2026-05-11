@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import '../constants/app_colors.dart';
 
+
+
+// Displays current temperature and humidity as read-only stat cards
+
 class ReadingCard extends StatelessWidget {
   final IconData icon;
   final String label;

@@ -28,34 +28,7 @@ class MyApp extends StatelessWidget {
           surface: AppColors.surface,
         ),
       ),
-      home: const PhoneFrame(),
-    );
-  }
-}
-
-class PhoneFrame extends StatelessWidget {
-  const PhoneFrame({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFF1C1C1E),
-      body: Center(
-        child: Container(
-          width: 390,
-          height: 844,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(50),
-            border: Border.all(
-              color: const Color(0xFF3A3A3C),
-              width: 10,
-            ),
-            color: AppColors.background,
-          ),
-          clipBehavior: Clip.antiAlias,
-          child: const ClimateScreen(),
-        ),
-      ),
+      home: const ClimateScreen(),
     );
   }
 }

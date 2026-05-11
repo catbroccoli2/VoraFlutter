@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import '../models/climate_state.dart';
 import '../constants/app_colors.dart';
 
+
+// Allows user to increment/decrement target temperature within set bounds
+
 class TemperatureControl extends StatelessWidget {
   const TemperatureControl({super.key});
 

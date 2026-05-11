@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 import '../models/climate_state.dart';
 import '../constants/app_colors.dart';
 
+
+// Displays an animated power toggle and updates ClimateState on tap
+
 class PowerToggle extends StatelessWidget {
   const PowerToggle({super.key});
 

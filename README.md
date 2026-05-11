@@ -20,13 +20,13 @@ A room climate control interface built with Flutter for the Vora Mobile Developm
 - **Flutter** 3.41.9
 - **Provider** ^6.1.2 — state management
 
-## Getting Started
+## How To Run It
 
 **Requirements:** Flutter SDK 3.0+
 
 ```bash
 git clone https://github.com/catbroccoli2/VoraFlutter.git
-cd vora-climate-control
+cd voraFlutter
 flutter pub get
 flutter run -d windows
 ```

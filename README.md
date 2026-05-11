@@ -33,4 +33,5 @@ flutter run -d windows
 
 No additional setup, environment variables, or dependencies required.
 
-## Project Structure
+## Demo
+  See `demo.mp4` in the repo root for a screen recording.
